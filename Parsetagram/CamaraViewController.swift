@@ -17,6 +17,7 @@ class CamaraViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        commentField.becomeFirstResponder()
 
         // Do any additional setup after loading the view.
     }
