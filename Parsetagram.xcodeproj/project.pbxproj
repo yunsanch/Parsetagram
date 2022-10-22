@@ -20,6 +20,7 @@
 		BD76325628F96DFE008EE9B6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD76325528F96DFE008EE9B6 /* FeedViewController.swift */; };
 		BD76325828F978F5008EE9B6 /* CamaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD76325728F978F5008EE9B6 /* CamaraViewController.swift */; };
 		BD76325A28FA10F6008EE9B6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD76325928FA10F6008EE9B6 /* PostCell.swift */; };
+		BD89816B2902D03600329398 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89816A2902D03600329398 /* CommentCell.swift */; };
 		CDD495DBF4AE138EF30284D4 /* Pods_ParsetagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7118E064AD6106CDF648675 /* Pods_ParsetagramTests.framework */; };
 		F98565014770022806A8E4B8 /* Pods_Parsetagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E6DB64CFEBA45E703351A6 /* Pods_Parsetagram.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		BD76325528F96DFE008EE9B6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BD76325728F978F5008EE9B6 /* CamaraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraViewController.swift; sourceTree = "<group>"; };
 		BD76325928FA10F6008EE9B6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BD89816A2902D03600329398 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		C7118E064AD6106CDF648675 /* Pods_ParsetagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParsetagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4DFA87D7E35A73F2F0D3AB /* Pods-Parsetagram-ParsetagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsetagram-ParsetagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Parsetagram-ParsetagramUITests/Pods-Parsetagram-ParsetagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F877A8D514ECEBF0A2631235 /* Pods-Parsetagram-ParsetagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsetagram-ParsetagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Parsetagram-ParsetagramUITests/Pods-Parsetagram-ParsetagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				BD76325528F96DFE008EE9B6 /* FeedViewController.swift */,
 				BD76325728F978F5008EE9B6 /* CamaraViewController.swift */,
 				BD76325928FA10F6008EE9B6 /* PostCell.swift */,
+				BD89816A2902D03600329398 /* CommentCell.swift */,
 			);
 			path = Parsetagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				BD76325628F96DFE008EE9B6 /* FeedViewController.swift in Sources */,
 				BD76322628F96717008EE9B6 /* SceneDelegate.swift in Sources */,
 				BD76325A28FA10F6008EE9B6 /* PostCell.swift in Sources */,
+				BD89816B2902D03600329398 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +611,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,7 +642,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,6 +11,7 @@ target 'Parsetagram' do
   pod 'lottie-ios'
   pod 'SkeletonView'
   pod 'Parse'
+  pod 'MessageInputBar'
 
 
   target 'ParsetagramTests' do
