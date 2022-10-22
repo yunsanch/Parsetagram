@@ -21,7 +21,8 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![ParsetagramP2walkthru.gif](https://github.com/yunsanch/Parsetagram/blob/main/parsetagramP1Walkthru.gif)
+
+![ParsetagramP2walkthru.gif](https://github.com/yunsanch/Parsetagram/blob/main/parsetagramP2Walkthru.gif)
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
